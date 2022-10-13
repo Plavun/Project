@@ -24,6 +24,12 @@ $vibor = mysqli_fetch_assoc ($result) ;
     
 <center>
 
+<form action="">
+            <div>
+          <a href="http://kniga">Зарегестрироваться/Авторизоваться</a>
+            </div>
+        </form>
+
 <?php 
 
 while ($vibor = mysqli_fetch_assoc($result)){ ?>
@@ -46,11 +52,7 @@ while ($vibor = mysqli_fetch_assoc($result)){ ?>
 
 ?>
 
-        <form action="">
-            <div>
-          <a href="http://kniga">Зарегестрироваться/Авторизоваться</a>
-            </div>
-        </form>
+    
 
 
 
