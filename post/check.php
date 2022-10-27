@@ -17,9 +17,8 @@
 
 $mysql -> close () ;
 
-$new_url = 'http://post' ;
 
-header ('Location:'.$new_url) ;
+header ('Location: index.php ') ;
 
 exit () ;
 
