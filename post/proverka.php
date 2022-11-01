@@ -33,8 +33,9 @@
     $mysql -> query ("INSERT INTO `users` (`login`, `pass` , `name`) VALUES ('$login', '$pass' , '$name')") ;
     
     $mysql -> close () ;
+    
+    header ('Location: registr.php') ;
 
-    header ('Location: /') ;
 
     exit () ;
 ?>

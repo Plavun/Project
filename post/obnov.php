@@ -18,7 +18,7 @@ $book_text = filter_var ( $_POST ['book_text']);
 
 mysqli_query ($connect, "UPDATE `vse_kningi` SET `name_book` = '$name_book', `book_description` = 'book_description', `book_text` = 'book_text' WHERE `vse_kningi`.`id` = '$id' ") ;
  
-header ('Location: index.php ') ;
+header ('Location: admin.php ') ;
 
 
 exit () ;

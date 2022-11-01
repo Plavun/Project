@@ -6,7 +6,7 @@ $id = $_GET['id'] ;
 
 mysqli_query ($connect, "DELETE FROM `vse_kningi` WHERE `vse_kningi`.`id` = '$id ' ") ;
 
-header ('Location: index.php ') ;
+header ('Location: admin.php') ;
 
 exit () ;
 

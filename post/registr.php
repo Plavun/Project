@@ -27,7 +27,7 @@
         <div class="col">
             <h1> Форма регистрации</h1>
 
-            <form action="validathion-form/check.php" method="post">
+            <form action="proverka.php" method="post">
     
                 <input type="text" class="form-control" name="login" id="login" placeholder="Введите email"> <br>
     
@@ -43,7 +43,7 @@
         <div class="col">
             <h1> Форма авторизации</h1>
 
-            <form action="validathion-form/auth.php" method="post">
+            <form action="auth.php" method="post">
     
                 <input type="text" class="form-control" name="login" id="login" placeholder="Введите email"> <br>
     

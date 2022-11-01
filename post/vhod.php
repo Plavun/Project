@@ -44,6 +44,7 @@ while ($vibor = mysqli_fetch_assoc($result)){ ?>
         <div class="col-md-7">
           <div class="text"> <?php echo $vibor ['book_text'] ?>
          
+         
 
 
      </div>

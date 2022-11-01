@@ -24,9 +24,9 @@ if (count($user) == 0 ) {
 
 $mysql -> close () ;
 
-$new_url = 'http://post/newKniga.html' ;
 
-header ('Location:'. $new_url) ;
+
+header ('Location: admin.php') ;
 
 exit() ;
 

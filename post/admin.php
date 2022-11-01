@@ -26,6 +26,7 @@ $vibor = mysqli_fetch_assoc ($result) ;
 <form action="">
             <div>
           <a href="registr.php">Зарегестрироваться/Авторизоваться</a>
+          <br><td><a href="newKniga.html">Добавить</a></td></br>
             </div>
         </form>
 
@@ -43,6 +44,8 @@ while ($vibor = mysqli_fetch_assoc($result)){ ?>
      </div>
         <div class="col-md-7">
           <div class="text"> <?php echo $vibor ['book_text'] ?>
+          <td><a href="redactor.php?id=<?= $vibor ['id']  ?>">Редактировать</a></td>
+          <td><a href="delete.php?id=<?= $vibor ['id']  ?>">Удалить</a></td>
          
 
 

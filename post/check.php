@@ -18,7 +18,7 @@
 $mysql -> close () ;
 
 
-header ('Location: index.php ') ;
+header ('Location: admin.php ') ;
 
 exit () ;
 
